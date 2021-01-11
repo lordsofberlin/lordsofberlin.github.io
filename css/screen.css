@@ -1,0 +1,34 @@
+html {
+    height: auto;
+    background: #CE063B;
+    background: -webkit-linear-gradient(top left, #CE063B, #2B147A);
+    background: -moz-linear-gradient(top left, #CE063B, #2B147A);
+    background: linear-gradient(to bottom right, #CE063B, #2B147A);
+}
+
+body {
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff35a;
+}
+
+a {
+    color: #fff35a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fill-available;
+  height: -moz-fill-available;
+  height: fill-available;
+}
+
+h1 {
+    font-family: 'Fugaz One', cursive;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000;
+}
